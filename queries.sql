@@ -21,8 +21,8 @@
     WHERE City = 'London' OR City = 'Madrid' OR Country = 'Brazil'
 
 -- Add a customer record for "The Shire", the contact name is "Bilbo Baggins" the address is -"1 Hobbit-Hole" in "Bag End", postal code "111" and the country is "Middle Earth"
-    INSERT INTO Customers (Country, CustomerName, ContactName, Address, City, PostalCode)
-    VALUES ('Middle Earth', 'Bilbo Baggins', 'Bilbo', '1 Hobbit-Hole', 'Bag End', '111')
+    INSERT INTO Customers (State, Country, CustomerName, Address, City, PostalCode)
+    VALUES ('The Shire', 'Middle Earth', 'Bilbo Baggins', '1 Hobbit-Hole', 'Bag End', '111')
 
 -- Update Bilbo Baggins record so that the postal code changes to "11122"
     UPDATE Customers
